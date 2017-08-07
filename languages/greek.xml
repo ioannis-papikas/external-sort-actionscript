@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dbms>
+  <menu title="Κεντρικό Μενού" ico="Logos/logo_greek.swf">
+    <volume id="0" title="Εξωτερική Ταξινόμηση" enabled="1" ico="icons/external_sort/main.swf">External Sort
+            <volume id="0.0" title="Απλή Μέθοδος Ταξινόμησης" enabled="1" ico="icons/external_sort/simple_method.swf">Simple external sort method</volume>
+			<volume id="0.1" title="Μέθοδος Ταξινόμησης με διπλούς buffer" enabled="1" ico="icons/external_sort/double_method.swf">Double external sort method</volume>
+			<volume id="0.2" title="Μέθοδος Ταξινόμησης με συγχώνευση" enabled="1" ico="icons/external_sort/merge_method.swf">Merge external sort method</volume>
+			<volume id="0.3" title="Μέθοδος Ταξινόμησης με χρήση σετ" enabled="1" ico="icons/external_sort/sets_method.swf">Sets external sort method</volume>
+			<volume id="0.4" title="Σύγκριση" enabled="1" ico="icons/external_sort/comparison.swf">Comparison of the methods</volume>
+		</volume>
+    <volume id="1" title="B+ Δέντρα" enabled="0" ico="icons/btrees/main.swf">B+ Trees
+        </volume>
+    <volume id="2" title="Διαχείριση Κλειδαριών" enabled="0" ico="icons/locker/main.swf">Lock Management
+        </volume>
+    <volume id="3" title="ARIES" enabled="0" ico="icons/aries/main.swf">ARIES
+        </volume>
+  </menu>
+  <btns>
+    <btn_abc>Keyboard</btn_abc>
+    <btn_num>Numpad</btn_num>
+    <btn_help>Help</btn_help>
+    <btn_about>About</btn_about>
+    <btn_summary>Summary</btn_summary>
+    <btn_proceed>Proceed</btn_proceed>
+    <btn_reset>Reset Menu</btn_reset>
+  </btns>
+</dbms>

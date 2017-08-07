@@ -1,0 +1,6 @@
+<b><u>External Sort</u></b>
+
+External sorting is a term for a class of sorting algorithms that can handle massive amounts of data.
+External sorting is required when the data being sorted does not fit into the main memory of a computing device (usually RAM) and a slower kind of memory (usually a hard drive) needs to be used.
+
+Carefully implemented, external sorting can be done in-place (with no additional disk space required).

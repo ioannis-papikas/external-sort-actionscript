@@ -1,0 +1,6 @@
+<b><u>External Sort with merge</u></b>
+
+This method is very common with the simple method of external sort we use here.
+It has only one modification.
+
+In Pass 0, read in B pages at a time and sort internally to produce N/B runs of B pages each (except for the last run, which may contain fewer pages).

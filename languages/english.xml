@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dbms>
+  <menu title="Main Menu" ico="Logos/logo_english.swf">
+    <volume id="0" title="External Sort" enabled="1" ico="icons/external_sort/main.swf" summary="Summaries/english/External Sort/Main.txt">External Sort
+            <volume id="0.0" title="Simple Method" enabled="1" ico="icons/external_sort/simple_method.swf" summary="Summaries/english/External Sort/Simple method.txt">Simple external sort method</volume>
+			<volume id="0.1" title="Double Method" enabled="1" ico="icons/external_sort/double_method.swf" summary="Summaries/english/External Sort/Double method.txt">Double external sort method</volume>
+			<volume id="0.2" title="Merge Method" enabled="1" ico="icons/external_sort/merge_method.swf" summary="Summaries/english/External Sort/Merge method.txt">Merge external sort method</volume>
+			<volume id="0.3" title="Sets Method" enabled="1" ico="icons/external_sort/sets_method.swf" summary="Summaries/english/External Sort/Sets method.txt">Sets external sort method</volume>
+			<volume id="0.4" title="Comparison" enabled="1" ico="icons/external_sort/comparison.swf" summary="Summaries/english/External Sort/Comparison.txt">Comparison of the methods</volume>
+		</volume>
+    <volume id="1" title="B+ Trees" enabled="0" ico="icons/btrees/main.swf" summary="Summaries/english/B+ Trees/Main.txt">B+ Trees
+        </volume>
+    <volume id="2" title="Lock Management" enabled="0" ico="icons/locker/main.swf" summary="Summaries/english/Lock Management/Main.txt">Lock Management
+        </volume>
+    <volume id="3" title="ARIES" enabled="0" ico="icons/aries/main.swf" summary="Summaries/english/ARIES/Main.txt">ARIES
+        </volume>
+  </menu>
+  <btns>
+    <btn_abc>Keyboard</btn_abc>
+    <btn_num>Numpad</btn_num>
+    <btn_help>Help</btn_help>
+    <btn_about>About</btn_about>
+    <btn_summary>Summary</btn_summary>
+    <btn_proceed>Proceed</btn_proceed>
+    <btn_reset>Reset Menu</btn_reset>
+  </btns>
+</dbms>
