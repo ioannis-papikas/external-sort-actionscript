@@ -1,0 +1,19 @@
+<b><u>GREECE</u></b>
+UNIVERSITY OF MACEDONIA
+ECONOMIC AND SOCIAL SCIENCES
+Department of Applied Informatics
+Site:   <a href="http://www.uom.gr"><u><i>www.uom.gr</i></u></a>
+
+<b>Based On:</b>
+"Database Management Systems, 2nd Edition"
+<a href="http://pages.cs.wisc.edu/~raghu/"><u><i>Raghu Ramakrishnan</i></u></a>, <a href="http://www.cs.cornell.edu/johannes/"><u><i>Johannes Gehrke</i></u></a>
+Chapter 11, "External Sort"
+
+<b>Created by...</b>
+John Papikas, Greece
+mail : it0648@uom.gr
+
+version : 1.0 , 10/06/2008
+Actionscript version : 2.0
+
+<u>Please report any bugs...<u>

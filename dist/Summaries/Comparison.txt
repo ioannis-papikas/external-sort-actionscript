@@ -1,0 +1,5 @@
+<b><u>Comparison of the 4 Methods</u></b>
+
+This method runs the simulation (without animation) for the 4 different methods and shows the results.
+
+It can be used for statistic reasons.

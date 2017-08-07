@@ -1,0 +1,13 @@
+<b><u>External Sort with Sets</u></b>
+
+<u>Minimizing the Number of Runs</u>
+
+In Pass 0 we read B pages at a time and sort them internally to produce N/B runs of B pages each (except for the last run, which may contain fewer pages). With a more aggressive implementaion, called <b>replacement sort</b>, we can write runs of approximately 2*B internally sorted pages on average.
+
+This imporovement is achieved as follows. We begin by reading in pages of the file of tuples to be sortedm say R, until the buffer is full, reserving (say) one page for use as an input and (say) one page for use as an output buffer. We will refer to the B-2 pages of R tuples that are not in the input or output buffer as the current set. Suppose that the file is to be sorted in ascending order on some search key k. Tuples are appended to the output in ascending order by k value.
+
+The idea is to repeatedly pick the tuple in the current set with the smallest k value that is still greater than the largest k value in the output buffer and append it to the output buffer. For the output buffer to remain sorted, the chosen tuple must satisfy the condition that its k value be greater than or equal to the largest k value currently in the output buffer; of all tuples in the current set that statisfy this condition, we pick the one with the smallest k value, and append it to the output buffer. Moving this tuple to the output buffer creates some space in the current set, which we use to add the next input tuple to the current set. (we assume for simplicity that all tuples are the same size).
+
+When all tuples in the input buffer have been consumed in this manner, the next page of the file is read in. Of course, the output buffer is written out when it is full, thereby extending the current run (which is gradually buil up on disk).
+
+The important question is this: When do we have to terminate the current run and start a new run? As long as some tuple t in the current set has a bigger k value than the most recently appended output tuple, we can append t to the output buffer, and the current run can be extended.

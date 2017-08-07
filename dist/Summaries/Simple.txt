@@ -1,0 +1,8 @@
+<b><u>External Sort Simple Method</u></b>
+
+This is the simple method of External Sort without and modifications:
+
+Suppose that B bufer pages are available in memory and that we need to sort a large file with N pages. The intuition behind the generalized algorithm that we now present is to retain the basic structure of making multiple passes while trying to minimize the number of passes.
+
+How the merge is being done:
+From the first step we know that all the pages have their tuples sorted. Then, cpu reads the value of the first tuple (with the minimum value among tuples in the same page) and compares it with the value of the first tuple of all the other pages. The tuple with the smallest value is being added to the new page. This happens until all pages are empty. Each time a page is full, cpu writes it to the disk. Until buffer is empty,cpu adds the new page to the last page. At the end there is only one page left with all the tuples sorted.
